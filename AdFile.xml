@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+   <Ad>
+      <ImageUrl>Images/Amazon.com-Logo.svg.png</ImageUrl>
+      <NavigateUrl>http://www.amazon.in</NavigateUrl>
+      <AlternateText>
+         Order at Amazon!
+      </AlternateText>
+      <Impressions>20</Impressions>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Images/Flipkart_logo.png</ImageUrl>
+      <NavigateUrl>http://www.flipkart.com</NavigateUrl>
+      <AlternateText>Order at Flipkart!</AlternateText>
+      <Impressions>20</Impressions>
+   </Ad>
+
+<Ad>
+      <ImageUrl>Images/pg.png</ImageUrl>
+      <NavigateUrl>http://www.postergully.com/collections/rohit-malhotra</NavigateUrl>
+      <AlternateText>Order at Postergully!</AlternateText>
+      <Impressions>40</Impressions>
+   </Ad>
+</Advertisements>

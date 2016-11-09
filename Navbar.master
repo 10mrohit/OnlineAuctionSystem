@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Navbar.master.cs" Inherits="Navbar" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script src="bootstrap.js"></script>
+</head>
+    
+<body style="background:#eeeeee">
+    <nav class="navbar navbar-fixed-top navbar-inverse" style="background:#333333">
+        <ul class="nav">
+            <h3><li class="active"><asp:Label runat="server" ID="Label1" ForeColor="White"></asp:Label></li></h3>
+        </ul>
+        <ul class="nav pull-right">
+            <li><asp:Hyperlink NavigateUrl="Register.aspx" runat="server" id="reg" Visible="false">Register</asp:Hyperlink></li>
+            <li><asp:Hyperlink NavigateUrl="UploadProduct.aspx" runat="server" id="upload">Upload Product</asp:Hyperlink></li>
+            <li><asp:Hyperlink NavigateUrl="EditProducts.aspx" runat="server" id="edit">Edit Products</asp:Hyperlink></li>
+            <li><asp:Hyperlink NavigateUrl="Feed.aspx" runat="server" id="feed">Feed</asp:Hyperlink></li>
+            <li><asp:Hyperlink NavigateUrl="Logout.aspx" runat="server" id="logout">Logout</asp:Hyperlink></li>
+        </ul>
+    </nav>
+
+    <div class="hero-unit" style="margin-bottom:0px">
+       <asp:ContentPlaceHolder ID="mainbody" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    
+<asp:image runat="server" ImageUrl="~/Images/OAS.png" style="position:fixed;right:5px;padding:0px;margin:0px;
+   width:450px;top:340px;"></asp:image>  
+</body>
+</html>
+<footer class="footer" style="background:#333333;position: fixed;height: 40px;bottom: 0;width: 100%;">
+            <div class="container" style="background:#333333">
+                <h6 style="color:white">Online Auction Store, Created by Pratik Kapoor, Rohit Malhotra.</h6>
+              </div>
+</footer>        
+    <asp:AdRotator ID="AdRotator1" AdvertisementFile = "AdFile.xml" runat="server" style="margin-right:0px;position:fixed;right:25px;
+   width:200px;top:150px;"/>
+
+          
