@@ -1,4 +1,2 @@
 # OnlineAuctionSystem
-ASP.NET Website
-
-![Alt text](OnlineAuctionSystem/Login.jpg "Login Page")
+ASP.NET Website with database connection.
